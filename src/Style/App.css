@@ -1,0 +1,17 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    background-color: #1A73E8;
+}
+
+.header__heading{
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 30px;
+    color: white;
+}
