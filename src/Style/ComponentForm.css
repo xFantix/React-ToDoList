@@ -2,6 +2,8 @@
     color: rgb(3, 206, 94);
     font-size: 20px;
     padding-left: 20px;
+    margin-top: 10px;
+    
     
 }
 .formLabel__input{
@@ -20,6 +22,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    border-right: 20px solid #5494ee;
     
 }
 .headerForm{
@@ -32,4 +35,24 @@
     color: rgb(77, 77, 77);
     letter-spacing: 1px;
     
+}
+.formLabelTag__checkbox{
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    letter-spacing: 1px;
+    
+}
+
+.buttonForm{
+    width: 25%;
+    height: 26px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #3585F7;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
