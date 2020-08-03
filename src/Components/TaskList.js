@@ -18,7 +18,7 @@ const TaskList = (props) => {
             <h2 className="taskListHeader" >Active Task ({activeTasks.length})</h2>
             {activeTasks.length > 0 ? activeTasks : <h3 className="taskListHeader__noList">No Assignments</h3>}
             <h2 className="taskListHeader" >Done Task ({doneTasks.length})</h2>
-            {doneTasks.length > 0 ? activeTasks : <h3 className="taskListHeader__noList">No Assignments</h3>}
+            {doneTasks.length > 0 ? doneTasks : <h3 className="taskListHeader__noList">No Assignments</h3>}
         </div>
     );
 }

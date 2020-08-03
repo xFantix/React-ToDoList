@@ -32,8 +32,23 @@ class ComponentForm extends Component {
             })
         }
     }
-    handleSubmit = (e) => {
+
+
+    handleClick = (e) => {
+
         e.preventDefault();
+        const { text, date, checked } = this.state;
+
+        const add = this.props.add(text, date, checked);
+
+        if (add) {
+            this.setState({
+                text: "",
+                date: "",
+                checked: false,
+            })
+        }
+
     }
 
 
@@ -44,7 +59,7 @@ class ComponentForm extends Component {
 
 
         return (
-            <form className="ComponentForm" onSubmit={this.handleSubmit}>
+            <form className="ComponentForm" onSubmit={this.handleClick}>
 
                 <h2 className="headerForm">Add Your Task</h2>
 

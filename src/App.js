@@ -6,24 +6,9 @@ import React, { Component } from 'react';
 
 class App extends Component {
 
-
+  counter = 0;
   state = {
     tasks: [
-      {
-        id: 0,
-        text: "ZAGRAC",
-        date: "202-02-03",
-        checked: true,
-        active: true,
-      },
-
-      {
-        id: 1,
-        text: "ZAGRAC w LOLa",
-        date: "202-02-03",
-        checked: true,
-        active: true,
-      },
     ]
   }
 
@@ -48,14 +33,35 @@ class App extends Component {
 
         task.active = false;
 
+        this.setState({
+          tasks
+        })
       }
     })
 
-    this.setState({
-      tasks
-    })
+  }
 
-    console.log(tasks);
+  addTask = (text, date, checked) => {
+
+
+    const task = {
+      id: this.counter,
+      text: text,
+      date: date,
+      checked: checked,
+      active: true,
+
+    }
+
+    this.counter++;
+
+    this.setState(prevState => ({
+      tasks: [...prevState.tasks, task],
+    }))
+
+
+    return true;
+
   }
 
   render() {
@@ -66,7 +72,7 @@ class App extends Component {
           <h1 className="header__heading">React ToDoList</h1>
         </header>
         <section className="section">
-          <ComponentForm />
+          <ComponentForm add={this.addTask} />
           <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus} />
         </section>
 
