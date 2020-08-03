@@ -6,7 +6,7 @@
 
 .header{
     width: 100%;
-    background-color: #1A73E8;
+    background-color: #3585F7;
 }
 
 .header__heading{
@@ -14,4 +14,12 @@
     padding: 15px 0px;
     font-size: 30px;
     color: white;
+    font-weight: 700;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }

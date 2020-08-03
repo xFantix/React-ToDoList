@@ -10,8 +10,10 @@ function App() {
       <header className="header">
         <h1 className="header__heading">React ToDoList</h1>
       </header>
+      <section className="section">
+        <ComponentForm />
+      </section>
 
-      <ComponentForm />
 
     </div>
   );

@@ -1,0 +1,35 @@
+.formLabel{
+    color: rgb(3, 206, 94);
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+.formLabel__input{
+    width: 70%;
+    background-color: rgb(175, 171, 171);
+    border: none;
+    border-radius: 2px;
+    height: 20px;
+    color: white;
+    
+}
+.ComponentForm{
+    background-color: white;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.headerForm{
+    color: #3585F7;
+    padding: 20px 0px 10px 15px;
+    font-size: 30px;
+}
+.formLabelTag{
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    letter-spacing: 1px;
+    
+}
