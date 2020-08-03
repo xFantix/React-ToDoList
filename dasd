@@ -1,0 +1,23 @@
+[33mcommit dc21f12386310538d1e860f22d0eaeeb40b7ae82[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kamil Jankowski <kamil.jankoowski@outlook.com>
+Date:   Mon Aug 3 13:08:36 2020 +0200
+
+    03,08 13:08
+
+[33mcommit 6d0b40e61c1f5605c4f256d8e216f329feb488b8[m
+Author: Kamil Jankowski <kamil.jankoowski@outlook.com>
+Date:   Mon Aug 3 01:09:08 2020 +0200
+
+    03.08
+
+[33mcommit b1c2793a222034176defa004a9d6e2d48f4c87f6[m
+Author: Kamil Jankowski <kamil.jankoowski@outlook.com>
+Date:   Mon Aug 3 00:27:09 2020 +0200
+
+    Prepar the project
+
+[33mcommit 1777cbe906a31b3457b9a7de03e56b6bbd137b11[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Kamil Jankowski <kamil.jankoowski@outlook.com>
+Date:   Mon Aug 3 00:23:52 2020 +0200
+
+    Initialize project using Create React App

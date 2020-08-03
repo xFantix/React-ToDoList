@@ -24,4 +24,11 @@
     align-items: center;
     flex-grow: 1;
     flex-direction: column;
+    flex-grow: 1;
+}
+
+.footer{
+    width: 100%;
+    background-color: yellow;
+   
 }

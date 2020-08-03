@@ -1,0 +1,19 @@
+.TaskList{
+    background-color: white;
+    min-width: 400px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-right: 20px solid #5494ee;
+}
+.taskListHeader{
+    text-align: center;
+    color: #3585F7;
+    padding: 5px 0px 10px 15px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.taskListHeader__noList{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.task{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.taskButton{
+    width: 10%;
+    height: 20px;
+    margin: 0px 10px;
+    background-color: #3585F7;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

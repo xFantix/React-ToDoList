@@ -7,7 +7,7 @@ class ComponentForm extends Component {
     today = new Date().toISOString().slice(0, 10);
 
     state = {
-        name: "",
+        text: "",
         date: "",
         checked: false,
         active: true,
@@ -51,7 +51,7 @@ class ComponentForm extends Component {
 
                 <label htmlFor="name" className="formLabel" method="post">
                     <p className="formLabelTag">Nazwa</p>
-                    <input className="formLabel__input" type="text" name="name" id="name" value={this.state.name} onChange={this.handeChangeForm} />
+                    <input className="formLabel__input" type="text" name="text" id="name" value={this.state.text} onChange={this.handeChangeForm} />
                 </label>
 
                 <label htmlFor="Date" className="formLabel">
