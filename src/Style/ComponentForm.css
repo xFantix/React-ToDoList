@@ -8,7 +8,7 @@
 }
 .formLabel__input{
     width: 70%;
-    background-color: rgb(175, 171, 171);
+    background-color: rgb(187, 182, 182);
     border: none;
     border-radius: 2px;
     height: 20px;
@@ -16,13 +16,14 @@
     
 }
 .ComponentForm{
-    background-color: white;
+    background-color: rgba(170, 166, 166, 0.171);
     width: 400px;
     margin-top: 50px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    border-right: 20px solid #5494ee;
+    border-right: 20px solid #03a4cc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     
 }
 .headerForm{

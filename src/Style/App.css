@@ -21,11 +21,11 @@
 .section{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-grow: 1;
-    flex-direction: column;
-    flex-grow: 1;
+    flex-wrap: wrap;
+    
+ 
 }
 
 .footer{
